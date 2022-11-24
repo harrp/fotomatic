@@ -289,7 +289,8 @@ header .mobile {
 
 .feature .content {
   padding: 1rem 3.75rem 1.5rem 3.75rem;
-  height: fit-content;
+  box-sizing: border-box;
+  height: 11.6875rem;
 }
 
 .feature h2 {
@@ -322,7 +323,7 @@ header .mobile {
   .feature .content {
     text-align: left;
     height: fit-content;
-    padding: 0.5rem 1rem 1rem 0;
+    padding: 0.5rem 1rem 1rem 2rem;
   }
 
   .feature h2 {
@@ -335,6 +336,10 @@ header .mobile {
     width: 100%;
   }
 }
+
+/*@media only screen and (min-width: 1025px) {
+
+}*/
 
 @media only screen and (max-width: 761px) {
   #features-section {
